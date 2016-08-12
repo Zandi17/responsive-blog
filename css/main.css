@@ -1,0 +1,174 @@
+body {
+	background-color: #2D2735;
+}
+/*header*/
+.inicio {
+	background: black;
+}
+.menu {
+	margin-top: 5%;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+	padding: 3%;
+	font-family: 'Open Sans';
+	font-style: italic;
+}
+a:hover {
+	color: #F7BA6A;
+}
+a {
+	color:white;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-style: italic;
+	text-align: center;
+}
+.parrafo {
+	font-family: 'Open Sans';
+	font-style: italic;
+	color: white;
+}
+/*Section1*/
+.flores {
+	background: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 10% 0%;
+	margin-top: 2%;
+}
+.medio {
+	background: #1C1821;
+	padding: 6% 1%;
+	
+}
+.medio h1 {
+	font-size: 300%;
+	color: #F7BA6A;
+	text-align: center;
+	font-family: 'Courgette';
+	margin-bottom: 6%;
+}
+
+.amarillo {
+	font-family: 'Courgette';
+	color: #F7BA6A;
+}
+.medio p {
+	float: left;
+	padding-left: 15%;
+	color: white;
+	font-family: 'Open Sans';
+	font-style: italic;
+}
+/*Section2*/
+.caja {
+	text-align: center;
+	padding: 3%;
+}
+section .cuadro {
+	background: #1C1821;
+	margin: 2% 6%;
+}
+/*Section3 col1*/
+section .contenido {
+	background: #1C1821;
+}
+/*Section3 col2*/
+.boton {
+	background: #1C1821;
+	padding: 10%;
+	margin-bottom: 3%;
+}
+input {
+	padding: 4% 10%;
+	background: #2D2735;
+	border-radius: 7%;
+}
+.chica {
+	background: #1C1821;
+	margin-top: 5%;
+}
+.centro{
+	text-align: center;
+}
+.redes {
+	background: #2D2735;
+    border-radius: 50%;
+    width: 5%;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 4%;
+}
+/*Footer*/
+footer {
+	background: #1C1821;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 900px) {
+
+	.logo {
+		width: 60%;
+	}
+	.menu {
+		display: none;
+	}
+	.flores {
+		width: 100%;
+	}
+	.icono {
+		font-size: 2em;
+		width: 6%;
+		float: right;
+		color: white;
+		padding-bottom: 5%;
+		margin-top: -7%;
+		margin-right: -5%;
+	}
+	.medio p {
+		padding-left: 2%;
+	}
+	.oculto {
+		display: none;
+	}
+	iframe {
+		width: 100%;
+	}
+}
+@media screen and (max-width : 600px) {
+
+	.logo {
+		width: 40%;
+	}
+	.menu {
+		display: none;
+	}
+	.flores {
+		width: 100%;
+	}
+	.icono {
+		font-size: 2em;
+		width: 6%;
+		float: right;
+		color: white;
+		padding-bottom: 5%;
+		margin-top: -7%;
+		margin-right: -5%;
+	}
+	.medio p {
+		padding-left: 2%;
+	}
+	.oculto {
+		display: none;
+	}
+	iframe {
+		width: 100%;
+	}
+}
